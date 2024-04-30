@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-    'swipe- create your own shop and sell goods to your mates in different schools',
+      'swipe- create your own shop and sell goods to your mates in different schools',
     description:
-    'Quickly  set-up your shop and upload the goods you are selling  to other students conviniently.',
+      'Quickly  set-up your shop and upload the goods you are selling  to other students conviniently.',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }

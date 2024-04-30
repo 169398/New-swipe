@@ -13,11 +13,12 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Set-up your shop,upload goods images and  start selling.
+          Set-up your shop,upload goods images and start
+          selling.
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-        Quickly  set-up your shop and upload the 
-        goods you are selling  to other students conviniently .
+          Quickly set-up your shop and upload the goods you
+          are selling to other students conviniently .
         </Typography>
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
