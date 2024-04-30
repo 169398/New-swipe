@@ -21,14 +21,15 @@ export function Header({ className }: SidebarProps) {
   const items = [
     {
       href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Book a demo',
+      title: 'Join the waiting list',
       openInNewTab: true
-    }
-    // { href: '#pricing', title: 'Features' },
-    // {
-    //   href: 'mailto:myemail@.com',
-    //   title: 'Contact Us'
-    // }
+    },
+  { href: '#pricing', title: 'Features' },
+
+   {
+     href: 'mailto:myemail@.com',
+     title: 'Contact Us'
+   }
   ]
 
   const getLogo = () => (
@@ -39,7 +40,7 @@ export function Header({ className }: SidebarProps) {
       </Typography>
     </Link>
   )
-
+/*
   const getAuthButtons = () => (
     <div className="flex gap-3 items-center">
       <Link
@@ -60,6 +61,7 @@ export function Header({ className }: SidebarProps) {
       </Link>
     </div>
   )
+  */
 
   const getHeaderItems = () => {
     return (
@@ -106,12 +108,12 @@ export function Header({ className }: SidebarProps) {
             <div className="flex items-center gap-x-8 flex-1">
               {getHeaderItems()}
             </div>
-            {getAuthButtons()}
+          {/* {getAuthButtons()}*/}  
           </div>
           {/* Mobile */}
           <div className="md:hidden flex gap-x-4 items-center">
-            {getAuthButtons()}
-            <Drawer direction="right">
+          {/* {getAuthButtons()}*/}  
+          <Drawer direction="right">
               <DrawerTrigger asChild>
                 <MenuIcon />
               </DrawerTrigger>
