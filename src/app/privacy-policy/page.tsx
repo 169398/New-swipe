@@ -5,7 +5,7 @@ export default function Page() {
         Privacy Policy
       </h1>
       <p className="mb-2">
-        <strong>Last updated:</strong> February 06, 2024
+        <strong>Last updated:</strong> April 06, 2024
       </p>
       <p className="mb-4">
         This Privacy Policy describes Our policies and
