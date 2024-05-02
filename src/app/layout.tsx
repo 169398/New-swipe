@@ -9,8 +9,7 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'swipe',
+  title: 'swipe',
   description:
     'Quickly  set-up your shop and upload the goods you are selling  to other students conviniently .',
   openGraph: {
