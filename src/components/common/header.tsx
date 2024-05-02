@@ -15,7 +15,7 @@ import { MenuIcon, X } from 'lucide-react'
 interface SidebarProps
   extends React.HTMLAttributes<HTMLDivElement> {}
 
-export function Header({ className  }: SidebarProps) {
+export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
