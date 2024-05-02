@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title:
-    'swipe- create your own shop and sell goods to your mates in different schools',
+    'swipe',
   description:
     'Quickly  set-up your shop and upload the goods you are selling  to other students conviniently .',
   openGraph: {

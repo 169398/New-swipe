@@ -15,7 +15,7 @@ import { MenuIcon, X } from 'lucide-react'
 interface SidebarProps
   extends React.HTMLAttributes<HTMLDivElement> {}
 
-export function Header({ className }: SidebarProps) {
+export function Header({ className  }: SidebarProps) {
   const pathname = usePathname()
   const items = [
     {
@@ -32,10 +32,10 @@ export function Header({ className }: SidebarProps) {
   ]
 
   const getLogo = () => (
-    <Link href="/" className="pointer flex items-center">
+    <Link href="/" className="pointer flex items-center ">
       <img src="/logo.svg" className="mr-3" />
       <Typography className="!text-white !text-base font-medium ">
-        Pandem
+        Swipe
       </Typography>
     </Link>
   )
