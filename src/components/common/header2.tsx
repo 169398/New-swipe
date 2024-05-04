@@ -19,7 +19,7 @@ export function Header2() {
           Join Swipe🛍️
         </h2>
         <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-          Quickly set-up your shop and upload the goods and
+          Quickly setup your shop and upload the goods and
           start selling to other students conviniently
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6"></div>
